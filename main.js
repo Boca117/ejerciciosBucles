@@ -52,7 +52,7 @@
 //         alert("El numero "+ numero +" NO es primo");
 //         break;
 //     }
-//     if (i === numero - 1) {
+//     else if (i === numero - 1) {
 //         alert("El numero "+ numero +" es primo");
 //     }
 // }
@@ -74,4 +74,125 @@
 
 // Punto 6
 
+// let arreglo = ["camion", "auto", "bicicleta", "barco", "moto", "avion", "helicoptero", "scooter", "avioneta", "lancha"]
+
+// for (let i = 0; i < arreglo.length; i++) {
+//     console.log(arreglo[i])
+// }
+
+//Punto 7
+
+// let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// for (let i = 0; i < arreglo.length; i++) {
+//     console.log(arreglo[i]*2)
+
+// }
+
+//Punto 8
+
+// let persona1 = {
+//     rol: "Madre",
+//     nombre: "Laura Escobar",
+//     edad: 28,
+//     ocupacion: "Profesora",
+//     estadoCivil: "Comprometida",
+// }
+
+// let persona2 = {
+//     rol: "Padre",
+//     nombre: "Sebastian Sanchez",
+//     edad: 30,
+//     ocupacion: "Ingeniero",
+//     estadoCivil: "Comprometido",
+// }
+
+// let persona3 = {
+//     rol: "Hermana",
+//     nombre: "Valentina Escobar",
+//     edad: 22,
+//     ocupacion: "Psicologa",
+//     estadoCivil: "Soltera",
+// }
+
+// let persona4 = {
+//     rol: "Abuelo",
+//     nombre: "Gilberto Escobar",
+//     edad: 60,
+//     ocupacion: "Contratista",
+//     estadoCivil: "Comprometido",
+// }
+
+// let persona5 = {
+//     rol: "Tia",
+//     nombre: "Luz Escobar",
+//     edad: 50,
+//     ocupacion: "Independiente",
+//     estadoCivil: "Separada",
+// }
+
+
+// let familia = [persona1, persona2, persona3, persona4, persona5]
+
+
+// for (let i = 0; i < familia.length; i++) {
+//         console.log("Este miembro de la familia es el/la " + familia[i].rol + ", con una edad de " + familia[i].edad + ", se ocupa como " + familia[i].ocupacion + ", y se encuentra " + familia[i].estadoCivil)
+
+// }
+
+//Punto 9
+// let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// for (let i = 0; i < arreglo.length; i++) {
+//     if (arreglo[i] % 2 !== 0) {
+//         console.log(arreglo[i])
+//     } else {
+//         continue
+//     }
+// }
+
+
+//Punto 10
+
+// let sumaPares = 0
+// let sumaImpares = 0
+// let numero
+
+// while (numero !== 0) {
+//     numero = Number(prompt("Ingresa un numero"))
+//     if (numero !== 0 && numero % 2 === 0) {
+//         sumaPares += numero
+//     } else {
+//         sumaImpares += numero
+//     }
+
+// }
+// console.log("La suma de pares es " + sumaPares)
+// console.log("La suma de impares es " + sumaImpares)
+
+// Punto 11
+// let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let maximo = arreglo[0]
+
+// for (let i = 0; i < arreglo.length; i++) {
+//     if (arreglo[i] > maximo) {
+//         maximo = arreglo[i]
+//     }    
+// }
+
+// console.log("El numero mas grande del arreglo es: " + maximo)
+
+// Punto 12
+// let arreglo = [15, 24, 33, 54, 95, 16, 67, 81, 9, 150]
+// let minimo = arreglo[0]
+
+// for (let i = 0; i < arreglo.length; i++) {
+//     if (arreglo[i] < minimo) {
+//         minimo = arreglo[i]
+//     }    
+// }
+
+// console.log("El numero mas chico del arreglo es: " + minimo)
+
+// Punto 13
 
