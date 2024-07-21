@@ -196,3 +196,75 @@
 
 // Punto 13
 
+// let jugador1 = prompt("Jugador 1: Ingresa tu nombre")
+// let jugador2 = prompt("Jugador 2: Ingresa tu nombre")
+ 
+
+// let eleccion1 
+// let eleccion2
+
+// while (eleccion1 === eleccion2) {  
+    
+//     eleccion1 = prompt(jugador1 + ", Elige entre piedra, papel o tijera").toLowerCase();
+//     eleccion2 = prompt(jugador2 + ", Elige entre piedra, papel o tijera").toLowerCase()
+
+    
+//     if (eleccion1 === "piedra" && eleccion2 === "tijera" || eleccion1 === "papel" && eleccion2 === "piedra" || eleccion1 === "tijera" && eleccion2 === "papel") {
+//         alert("Gana " + jugador1)
+//         break
+        
+//     } else if (eleccion2 === "piedra" && eleccion1 === "tijera" || eleccion2 === "papel" && eleccion1 === "piedra" || eleccion2 === "tijera" && eleccion1 === "papel") {
+//         alert("Gana " + jugador2)
+//         break
+//     }
+//     alert("Empate")
+    
+// }
+
+
+//Punto 14
+
+// function triangulo(lado) {
+    
+//     for (let i = 0; i <= lado; i++) {
+
+//         console.log("*".repeat(i))
+        
+//     }
+// }
+
+// triangulo(5)
+
+
+ //Punto 15
+// function trianguloinv(lado) {
+    
+//     for (let i = 0; i <= lado; i++) {
+
+//         console.log("*".repeat(lado - i))
+        
+        
+//     }
+// }
+
+// trianguloinv(5)
+ 
+//Punto 16
+
+// let arreglo = [2, 4, 5, 45, 20, 10, 1, 8, 23, 27]
+// let orden = []
+
+// while (arreglo.length > 0) {
+//     let minimo = arreglo[0]
+
+//     for (let i = 0; i < arreglo.length; i++) {
+//         if (arreglo[i] < minimo) {
+//             minimo = arreglo[i]
+//         }    
+//     }
+//     orden.push(minimo)
+//     let index = arreglo.indexOf(minimo)
+//     arreglo.splice(index, 1)
+// }
+
+// alert(orden)
