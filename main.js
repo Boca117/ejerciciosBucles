@@ -224,31 +224,28 @@ while (eleccion1 === eleccion2) {
 
 
 // Punto 14
-
-function triangulo(lado) {
     
-    for (let i = 0; i <= lado; i++) {
-
-        console.log("*".repeat(i))
-        
+    for (let i = 1; i <= 5; i++) {
+        let asterisco = ""
+        for(let j = 1; j <= i; j++){
+            asterisco += "* "    
+        }
+        console.log(asterisco)
     }
-}
-
-triangulo(5)
-
 
 //  Punto 15
-function trianguloinv(lado) {
+
     
-    for (let i = 0; i <= lado; i++) {
-
-        console.log("*".repeat(lado - i))
-        
-        
+    for (let i = 5; i >= 1; i--) {
+        let asterisco = ""
+        for(let j = 1; j <= i; j++){
+            asterisco += "* "    
+        }
+        console.log(asterisco)
     }
-}
 
-trianguloinv(5)
+
+
  
 // Punto 16
 
@@ -269,3 +266,17 @@ while (arreglo.length > 0) {
 }
 
 alert(orden)
+
+// Metodo Burbuja
+
+// for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array.length - 1; j++) {
+//         let base =array[j]
+//         let comparador = array[j + 1]
+//         if (base > comparador) {
+//             array[j] = comparador
+//             array[j + 1] = base
+//         }   
+//     }
+// }
+// console.log(array)
